@@ -1,0 +1,449 @@
+{
+  "generatedAt": "2026-07-20T06:45:00-03:00",
+  "channels": [
+    {
+      "code": "grd",
+      "name": "Globo",
+      "icon": "https://assets.meuguia.tv/logos/grd.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720083000 -0300",
+        "title": "Bom Dia Rio",
+        "category": "Jornalismo/Informativo"
+      },
+      "next": [
+        {
+          "start": "20260720083000 -0300",
+          "stop": "20260720093000 -0300",
+          "title": "Bom Dia Brasil",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720093000 -0300",
+          "stop": "20260720103500 -0300",
+          "title": "Encontro com Patrícia Poeta",
+          "category": "Variedades/Diversos"
+        },
+        {
+          "start": "20260720103500 -0300",
+          "stop": "20260720114500 -0300",
+          "title": "Mais Você",
+          "category": "Variedades/Diversos"
+        },
+        {
+          "start": "20260720114500 -0300",
+          "stop": "20260720130000 -0300",
+          "title": "RJ1",
+          "category": "Jornalismo/Informativo"
+        }
+      ]
+    },
+    {
+      "code": "sbt",
+      "name": "SBT",
+      "icon": "https://assets.meuguia.tv/logos/sbt.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720083000 -0300",
+        "title": "Se Liga Brasil",
+        "category": "Jornalismo/Informativo"
+      },
+      "next": [
+        {
+          "start": "20260720083000 -0300",
+          "stop": "20260720124500 -0300",
+          "title": "Primeiro Impacto",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720124500 -0300",
+          "stop": "20260720140000 -0300",
+          "title": "Chaves",
+          "category": "Séries/Humor"
+        },
+        {
+          "start": "20260720140000 -0300",
+          "stop": "20260720144500 -0300",
+          "title": "A Desalmada",
+          "category": "Variedades/Novela"
+        },
+        {
+          "start": "20260720144500 -0300",
+          "stop": "20260720153000 -0300",
+          "title": "Meu Coração é Teu",
+          "category": "Variedades/Novela"
+        }
+      ]
+    },
+    {
+      "code": "rec",
+      "name": "Record TV",
+      "icon": "https://assets.meuguia.tv/logos/rec.png",
+      "now": {
+        "start": "20260720050000 -0300",
+        "stop": "20260720070000 -0300",
+        "title": "Balanço Geral Manhã",
+        "category": "Jornalismo/Informativo"
+      },
+      "next": [
+        {
+          "start": "20260720070000 -0300",
+          "stop": "20260720070500 -0300",
+          "title": "Jornal da Record 24h",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720070500 -0300",
+          "stop": "20260720073000 -0300",
+          "title": "Balanço Geral Manhã",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720073000 -0300",
+          "stop": "20260720084000 -0300",
+          "title": "Balanço Geral Manhã - SP",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720084000 -0300",
+          "stop": "20260720095000 -0300",
+          "title": "Fala Brasil",
+          "category": "Jornalismo/Informativo"
+        }
+      ]
+    },
+    {
+      "code": "ban",
+      "name": "Band",
+      "icon": "https://assets.meuguia.tv/logos/ban.png",
+      "now": {
+        "start": "20260720040000 -0300",
+        "stop": "20260720080000 -0300",
+        "title": "Igreja Universal do Reino de Deus",
+        "category": "Variedades/Religião"
+      },
+      "next": [
+        {
+          "start": "20260720080000 -0300",
+          "stop": "20260720083000 -0300",
+          "title": "Agro Band",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720083000 -0300",
+          "stop": "20260720090000 -0300",
+          "title": "Bandsports News",
+          "category": "Jornalismo/Esportivo"
+        },
+        {
+          "start": "20260720090000 -0300",
+          "stop": "20260720110000 -0300",
+          "title": "Bora Brasil",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720110000 -0300",
+          "stop": "20260720120000 -0300",
+          "title": "Jogo Aberto",
+          "category": "Jornalismo/Esportivo"
+        }
+      ]
+    },
+    {
+      "code": "gln",
+      "name": "Globo News",
+      "icon": "https://assets.meuguia.tv/logos/gln.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720070000 -0300",
+        "title": "Jornal GloboNews (6h) - Ao Vivo",
+        "category": "Jornalismo/Informativo"
+      },
+      "next": [
+        {
+          "start": "20260720070000 -0300",
+          "stop": "20260720093000 -0300",
+          "title": "GloboNews Em Ponto - Ao Vivo",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720093000 -0300",
+          "stop": "20260720130000 -0300",
+          "title": "Conexão GloboNews - Ao Vivo",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720130000 -0300",
+          "stop": "20260720160000 -0300",
+          "title": "Estúdio i - Ao Vivo",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720160000 -0300",
+          "stop": "20260720180000 -0300",
+          "title": "GloboNews Mais - Ao Vivo",
+          "category": "Jornalismo/Informativo"
+        }
+      ]
+    },
+    {
+      "code": "cnn",
+      "name": "CNN International",
+      "icon": "https://assets.meuguia.tv/logos/cnn.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720070000 -0300",
+        "title": "CNN This Morning",
+        "category": "Jornalismo/Informativo"
+      },
+      "next": [
+        {
+          "start": "20260720070000 -0300",
+          "stop": "20260720080000 -0300",
+          "title": "CNN This Morning",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720080000 -0300",
+          "stop": "20260720083000 -0300",
+          "title": "CNN News Central",
+          "category": "Jornalismo/Informativo"
+        },
+        {
+          "start": "20260720083000 -0300",
+          "stop": "20260720090000 -0300",
+          "title": "World Sport",
+          "category": "Jornalismo/Esportivo"
+        },
+        {
+          "start": "20260720090000 -0300",
+          "stop": "20260720100000 -0300",
+          "title": "CNN Newsroom",
+          "category": "Jornalismo/Informativo"
+        }
+      ]
+    },
+    {
+      "code": "esp",
+      "name": "ESPN",
+      "icon": "https://assets.meuguia.tv/logos/esp.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720080000 -0300",
+        "title": "Linha de Passe: Mesa-Redonda",
+        "category": "Jornalismo/Esportivo"
+      },
+      "next": [
+        {
+          "start": "20260720080000 -0300",
+          "stop": "20260720090000 -0300",
+          "title": "Resenha da Copa",
+          "category": "Jornalismo/Esportivo"
+        },
+        {
+          "start": "20260720090000 -0300",
+          "stop": "20260720110000 -0300",
+          "title": "VT - Fortaleza x Novorizontino",
+          "category": "Esporte/Futebol"
+        },
+        {
+          "start": "20260720110000 -0300",
+          "stop": "20260720130000 -0300",
+          "title": "Sportscenter - Ao Vivo",
+          "category": "Jornalismo/Esportivo"
+        },
+        {
+          "start": "20260720130000 -0300",
+          "stop": "20260720150000 -0300",
+          "title": "F Show - Ao Vivo",
+          "category": "Jornalismo/Esportivo"
+        }
+      ]
+    },
+    {
+      "code": "hbo",
+      "name": "HBO",
+      "icon": "https://assets.meuguia.tv/logos/hbo.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720080500 -0300",
+        "title": "Twisters",
+        "category": "Filme/Ação"
+      },
+      "next": [
+        {
+          "start": "20260720080500 -0300",
+          "stop": "20260720110000 -0300",
+          "title": "Interestelar",
+          "category": "Filme/Drama"
+        },
+        {
+          "start": "20260720110000 -0300",
+          "stop": "20260720125200 -0300",
+          "title": "Sucker Punch - Mundo Surreal",
+          "category": "Filme/Ação"
+        },
+        {
+          "start": "20260720125200 -0300",
+          "stop": "20260720151000 -0300",
+          "title": "Christy: Um Novo Round",
+          "category": "Filme/Documentário"
+        },
+        {
+          "start": "20260720151000 -0300",
+          "stop": "20260720171500 -0300",
+          "title": "Missão de Sobrevivência",
+          "category": "Filme/Drama"
+        }
+      ]
+    },
+    {
+      "code": "tnt",
+      "name": "TNT",
+      "icon": "https://assets.meuguia.tv/logos/tnt.png",
+      "now": {
+        "start": "20260720060000 -0300",
+        "stop": "20260720072300 -0300",
+        "title": "Hollywood One on One",
+        "category": "Variedades/Entrevista"
+      },
+      "next": [
+        {
+          "start": "20260720072300 -0300",
+          "stop": "20260720092000 -0300",
+          "title": "Queima de Arquivo",
+          "category": "Filme/Ação"
+        },
+        {
+          "start": "20260720092000 -0300",
+          "stop": "20260720111100 -0300",
+          "title": "Os Outros Caras",
+          "category": "Filme/Ação"
+        },
+        {
+          "start": "20260720111100 -0300",
+          "stop": "20260720113400 -0300",
+          "title": "Um Maluco no Pedaço",
+          "category": "Séries/Humor"
+        },
+        {
+          "start": "20260720113400 -0300",
+          "stop": "20260720115800 -0300",
+          "title": "Um Maluco no Pedaço",
+          "category": "Séries/Humor"
+        }
+      ]
+    },
+    {
+      "code": "dis",
+      "name": "Discovery Channel",
+      "icon": "https://assets.meuguia.tv/logos/dis.png",
+      "now": {
+        "start": "20260720062200 -0300",
+        "stop": "20260720070600 -0300",
+        "title": "Febre do Ouro: Freddy Dodge ao Resgate",
+        "category": "Séries/Reality Show"
+      },
+      "next": [
+        {
+          "start": "20260720070600 -0300",
+          "stop": "20260720075400 -0300",
+          "title": "Largados e Pelados",
+          "category": "Séries/Documentário"
+        },
+        {
+          "start": "20260720075400 -0300",
+          "stop": "20260720084300 -0300",
+          "title": "Largados e Pelados",
+          "category": "Séries/Documentário"
+        },
+        {
+          "start": "20260720084300 -0300",
+          "stop": "20260720093200 -0300",
+          "title": "Desafio em Dose Dupla",
+          "category": "Séries/Documentário"
+        },
+        {
+          "start": "20260720093200 -0300",
+          "stop": "20260720102100 -0300",
+          "title": "Desafio em Dose Dupla Brasil: Leo e Leite",
+          "category": "Séries/Documentário"
+        }
+      ]
+    },
+    {
+      "code": "car",
+      "name": "Cartoon Network",
+      "icon": "https://assets.meuguia.tv/logos/car.png",
+      "now": {
+        "start": "20260720063500 -0300",
+        "stop": "20260720064800 -0300",
+        "title": "Ursos Sem Curso",
+        "category": "Infantil/Desenho"
+      },
+      "next": [
+        {
+          "start": "20260720064800 -0300",
+          "stop": "20260720070000 -0300",
+          "title": "Ursos Sem Curso",
+          "category": "Infantil/Desenho"
+        },
+        {
+          "start": "20260720070000 -0300",
+          "stop": "20260720071100 -0300",
+          "title": "Irmão do Jorel",
+          "category": "Infantil/Desenho"
+        },
+        {
+          "start": "20260720071100 -0300",
+          "stop": "20260720072300 -0300",
+          "title": "Irmão do Jorel",
+          "category": "Infantil/Desenho"
+        },
+        {
+          "start": "20260720072300 -0300",
+          "stop": "20260720073500 -0300",
+          "title": "Irmão do Jorel",
+          "category": "Infantil/Desenho"
+        }
+      ]
+    },
+    {
+      "code": "gnt",
+      "name": "GNT",
+      "icon": "https://assets.meuguia.tv/logos/gnt.png",
+      "now": {
+        "start": "20260720064500 -0300",
+        "stop": "20260720073900 -0300",
+        "title": "Fazendo A Festa",
+        "category": "Séries/Documentário"
+      },
+      "next": [
+        {
+          "start": "20260720073900 -0300",
+          "stop": "20260720083500 -0300",
+          "title": "Santa Ajuda",
+          "category": "Séries/Documentário"
+        },
+        {
+          "start": "20260720083500 -0300",
+          "stop": "20260720093100 -0300",
+          "title": "Decora",
+          "category": "Séries/Diversos"
+        },
+        {
+          "start": "20260720093100 -0300",
+          "stop": "20260720102600 -0300",
+          "title": "Mais Cor, Por Favor!",
+          "category": "Séries/Documentário"
+        },
+        {
+          "start": "20260720102600 -0300",
+          "stop": "20260720105800 -0300",
+          "title": "Lar: Vida Interior",
+          "category": "Séries/Diversos"
+        }
+      ]
+    }
+  ]
+}

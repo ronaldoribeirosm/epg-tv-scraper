@@ -1,0 +1,40 @@
+name: Atualizar EPG
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm run scrape
+
+      - name: Publicar guide.xml se houver mudanças
+        run: |
+          if git diff --quiet -- output/guide.xml; then
+            echo "Sem mudanças na programação."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/guide.xml
+          git commit -m "Atualiza guide.xml ($(date -u +'%Y-%m-%dT%H:%MZ'))"
+          git push

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guia de Programação — EPG</title>
+<meta name="description" content="Amostra visual do EPG gerado a partir da raspagem horária: canais, programação atual e a seguir." />
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: oklch(16% 0.02 260);
+    --surface: oklch(21% 0.018 260);
+    --surface-2: oklch(26.5% 0.018 260);
+    --border: oklch(32% 0.02 260);
+    --ink: oklch(93% 0.01 260);
+    --ink-muted: oklch(68% 0.02 260);
+    --ink-faint: oklch(52% 0.02 260);
+    --accent: oklch(68% 0.19 35);
+    --accent-ink: oklch(99% 0 0);
+    --focus: oklch(80% 0.15 250);
+
+    --tag-aberta: oklch(72% 0.14 150);
+    --tag-noticias: oklch(72% 0.13 250);
+    --tag-esportes: oklch(75% 0.16 145);
+    --tag-filmes: oklch(72% 0.14 320);
+    --tag-default: oklch(70% 0.03 260);
+
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --radius: 12px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color-scheme: light;
+      --bg: oklch(97% 0.005 260);
+      --surface: oklch(100% 0 0);
+      --surface-2: oklch(94% 0.006 260);
+      --border: oklch(88% 0.008 260);
+      --ink: oklch(22% 0.015 260);
+      --ink-muted: oklch(42% 0.02 260);
+      --ink-faint: oklch(56% 0.02 260);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mono {
+    font-family: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 40px 24px 96px;
+  }
+
+  header.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h1 {
+    font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .lede {
+    color: var(--ink-muted);
+    max-width: 62ch;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+  }
+
+  .pill svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+  code.inline {
+    font-family: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.85em;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+
+  .filter-btn {
+    appearance: none;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--ink-muted);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 140ms var(--ease-out), background 140ms ease, color 140ms ease, border-color 140ms ease;
+  }
+
+  .filter-btn:hover { color: var(--ink); border-color: var(--ink-faint); }
+  .filter-btn:active { transform: scale(0.96); }
+
+  .filter-btn[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--bg);
+    border-color: var(--ink);
+  }
+
+  .filter-btn:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: rise 280ms var(--ease-out) forwards;
+    animation-delay: calc(var(--i) * 28ms);
+  }
+
+  @keyframes rise {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { animation: none; opacity: 1; transform: none; }
+  }
+
+  .card-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-frame {
+    width: 44px;
+    height: 44px;
+    border-radius: 9px;
+    background: oklch(96% 0.005 260);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .logo-frame img {
+    max-width: 32px;
+    max-height: 32px;
+    object-fit: contain;
+  }
+
+  .channel-name {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 0 3px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: var(--surface-2);
+    color: var(--tag-color, var(--tag-default));
+  }
+
+  .now-block {
+    background: var(--surface-2);
+    border-radius: 9px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .live-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--accent-ink);
+    background: var(--accent);
+    padding: 3px 8px;
+    border-radius: 5px;
+  }
+
+  .live-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent-ink);
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .live-dot { animation: none; }
+  }
+
+  .now-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .now-time {
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+  }
+
+  .progress-track {
+    height: 4px;
+    border-radius: 999px;
+    background: var(--border);
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width 400ms var(--ease-out);
+  }
+
+  .next-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .next-list li {
+    display: flex;
+    gap: 10px;
+    font-size: 0.83rem;
+    color: var(--ink-muted);
+    align-items: baseline;
+  }
+
+  .next-time {
+    color: var(--ink-faint);
+    flex-shrink: 0;
+    width: 42px;
+  }
+
+  .next-title {
+    color: var(--ink);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 64px 20px;
+    color: var(--ink-faint);
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--ink-faint);
+    font-size: 0.82rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>Guia de Programação</h1>
+    <p class="lede">
+      Raspagem automática de grades de TV, publicada como um arquivo XMLTV (EPG)
+      atualizado a cada hora — pronto para Kodi, Tvheadend, Jellyfin ou qualquer
+      leitor de guia de programação.
+    </p>
+    <div class="meta-row">
+      <span class="pill" id="generated-pill">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <span id="generated-text">amostra estática</span>
+      </span>
+      <span class="pill">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        arquivo completo em <code class="inline">output/guide.xml</code>
+      </span>
+    </div>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="Filtrar por categoria"></nav>
+
+  <main class="grid" id="grid" aria-live="polite"></main>
+
+  <footer>
+    <span>12 de 80+ canais mapeados nesta amostra.</span>
+    <span>Fuso horário: América/São_Paulo (UTC-03:00).</span>
+  </footer>
+</div>
+
+<script>
+  const CATEGORY_OF = {
+    grd: 'Aberta', sbt: 'Aberta', rec: 'Aberta', ban: 'Aberta',
+    gln: 'Notícias', cnn: 'Notícias',
+    esp: 'Esportes',
+    hbo: 'Filmes', tnt: 'Filmes',
+    dis: 'Documentários',
+    car: 'Infantil',
+    gnt: 'Variedades',
+  };
+
+  const TAG_COLOR = {
+    Aberta: 'var(--tag-aberta)',
+    Notícias: 'var(--tag-noticias)',
+    Esportes: 'var(--tag-esportes)',
+    Filmes: 'var(--tag-filmes)',
+  };
+
+  function parseXmltvTime(s) {
+    const [digits, offset] = s.split(' ');
+    const y = digits.slice(0, 4), mo = digits.slice(4, 6), d = digits.slice(6, 8);
+    const h = digits.slice(8, 10), mi = digits.slice(10, 12), se = digits.slice(12, 14);
+    const off = offset ? `${offset.slice(0, 3)}:${offset.slice(3)}` : '-03:00';
+    const ms = new Date(`${y}-${mo}-${d}T${h}:${mi}:${se}${off}`).getTime();
+    return { h, mi, ms };
+  }
+
+  function fmtTime(s) {
+    const t = parseXmltvTime(s);
+    return `${t.h}:${t.mi}`;
+  }
+
+  function fmtGeneratedAt(iso) {
+    const d = new Date(iso);
+    const date = d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'America/Sao_Paulo' });
+    const time = d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' });
+    return `amostra estática · gerada em ${date} às ${time}`;
+  }
+
+  function renderCard(channel, generatedMs, index) {
+    const category = CATEGORY_OF[channel.code] || 'Outros';
+    const tagColor = TAG_COLOR[category] || 'var(--tag-default)';
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.style.setProperty('--i', Math.min(index, 10));
+    card.dataset.category = category;
+
+    let progressWidth = 0;
+    if (channel.now && channel.now.stop) {
+      const startMs = parseXmltvTime(channel.now.start).ms;
+      const stopMs = parseXmltvTime(channel.now.stop).ms;
+      const total = stopMs - startMs;
+      const elapsed = generatedMs - startMs;
+      progressWidth = total > 0 ? Math.min(100, Math.max(0, (elapsed / total) * 100)) : 0;
+    }
+
+    const nowBlock = channel.now
+      ? `
+        <div class="now-block">
+          <div class="live-row">
+            <span class="live-badge"><span class="live-dot"></span>AO VIVO</span>
+            <span class="now-time mono">${fmtTime(channel.now.start)}–${channel.now.stop ? fmtTime(channel.now.stop) : '?'}</span>
+          </div>
+          <div class="now-title">${channel.now.title}</div>
+          <div class="progress-track"><div class="progress-fill" style="width:${progressWidth}%"></div></div>
+        </div>`
+      : `<div class="now-block"><span class="now-time">Sem programação no momento nesta amostra.</span></div>`;
+
+    const nextItems = (channel.next || [])
+      .map((p) => `<li><span class="next-time mono">${fmtTime(p.start)}</span><span class="next-title">${p.title}</span></li>`)
+      .join('');
+
+    card.innerHTML = `
+      <div class="card-head">
+        <div class="logo-frame"><img src="${channel.icon}" alt="" loading="lazy" width="32" height="32" onerror="this.style.display='none'"></div>
+        <div>
+          <p class="channel-name">${channel.name}</p>
+          <span class="tag" style="--tag-color:${tagColor}">${category}</span>
+        </div>
+      </div>
+      ${nowBlock}
+      <ul class="next-list">${nextItems}</ul>
+    `;
+    return card;
+  }
+
+  function renderFilters(categories, onSelect) {
+    const nav = document.getElementById('filters');
+    const all = ['Todos', ...categories];
+    all.forEach((cat, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.type = 'button';
+      btn.textContent = cat;
+      btn.setAttribute('aria-pressed', i === 0 ? 'true' : 'false');
+      btn.addEventListener('click', () => {
+        nav.querySelectorAll('.filter-btn').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        onSelect(cat);
+      });
+      nav.appendChild(btn);
+    });
+  }
+
+  async function init() {
+    const res = await fetch('./data.json');
+    const data = await res.json();
+
+    document.getElementById('generated-text').textContent = fmtGeneratedAt(data.generatedAt);
+    const generatedMs = new Date(data.generatedAt).getTime();
+
+    const grid = document.getElementById('grid');
+
+    function draw(filter) {
+      grid.innerHTML = '';
+      const list = data.channels.filter((c) => filter === 'Todos' || (CATEGORY_OF[c.code] || 'Outros') === filter);
+      if (list.length === 0) {
+        grid.innerHTML = '<div class="empty-state">Nenhum canal nessa categoria nesta amostra.</div>';
+        return;
+      }
+      list.forEach((c, i) => grid.appendChild(renderCard(c, generatedMs, i)));
+    }
+
+    const categories = [...new Set(data.channels.map((c) => CATEGORY_OF[c.code] || 'Outros'))];
+    renderFilters(categories, draw);
+    draw('Todos');
+  }
+
+  init();
+</script>
+</body>
+</html>
