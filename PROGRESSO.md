@@ -36,6 +36,7 @@
 - **`npm run typecheck`**: limpo, sem erros.
 - **Demo testada com Playwright de verdade** (headless Chromium): 12/12 cards renderizando, filtro por categoria funcionando (`Esportes` isola 1 card), zero erro de console, screenshots capturados em tema escuro, tema claro e viewport mobile (390×844) — um bug real de timing foi encontrado e corrigido nesse processo (ver abaixo).
 - **`robots.txt` das duas fontes candidatas foi lido de verdade** via `curl` antes de decidir — a escolha de `meuguia.tv` não foi um chute.
+- **`scrape.yml` rodou de verdade no GitHub Actions** (disparo manual via `gh workflow run`, não só o cron): terminou com sucesso e fez o commit automático `Atualiza guide.xml` sozinho, como `github-actions[bot]`, com uma diferença real (poucos minutos depois da raspagem local, os programas "ao vivo" já tinham mudado) — a lógica de "commitar só se mudou" está confirmada dentro do runner do Actions, não só localmente.
 
 ### Um bug real encontrado e corrigido nesta sessão
 
@@ -43,14 +44,13 @@ A primeira versão da demo usava `animation-delay: calc(var(--i) * 45ms)` sem li
 
 ## O que NÃO foi validado nesta sessão
 
-- **O workflow `scrape.yml` nunca rodou de verdade no GitHub Actions** — foi escrito e revisado, mas a execução em CI só acontece depois do primeiro push; a lógica de "commitar só se mudou" foi testada manualmente via `git diff --quiet` local, não dentro do runner do Actions.
+- **O disparo automático pelo cron (`schedule: '0 * * * *'`) ainda não aconteceu sozinho** — o que rodou foi um disparo manual (`workflow_dispatch`) pra confirmar que a lógica funciona; o agendamento em si só se prova na próxima hora cheia, sem intervenção.
 - **O arquivo `guide.xml` nunca foi carregado num player real** (Kodi, Tvheadend, Jellyfin). A validação foi estrutural — segue a sintaxe XMLTV (`<tv><channel/><programme/></tv>`, atributos `start`/`stop`/`channel` no formato `YYYYMMDDHHMMSS ±HHMM`) — mas não há confirmação de que um PVR real aceita o arquivo sem ajuste.
 - **Estabilidade do HTML de origem no longo prazo** — o parser depende da estrutura atual de `meuguia.tv`; não há como garantir que ela não muda amanhã. Se mudar, o job horário do Actions vai começar a falhar (ou a raspar 0 canais, o que já aborta sem gravar arquivo) — é o sinal que vai indicar a necessidade de ajuste.
 - **Cobertura regional dos canais de TV aberta** — o site personaliza a lista de TV aberta por localização; os 13 códigos "Aberta" no catálogo vieram do lineup padrão do servidor no momento da sessão (aparentemente Rio de Janeiro, pelo teor de "Bom Dia Rio"), não foram comparados com outras regiões.
 
 ## Pendente (decisões que são suas, não técnicas)
 
-1. **Criar o repositório no GitHub** e fazer o primeiro push (dispara o `ci.yml`; o `scrape.yml` só começa a rodar de fato depois, no próximo início de hora)
-2. **Adicionar os topics** (`xmltv`, `epg`, `web-scraping`, `typescript`, `tv-guide`), pinar no perfil se quiser
-3. **Acompanhar a primeira execução real do `scrape.yml`** no Actions pra confirmar que o commit automático funciona como esperado
-4. **Testar `output/guide.xml` num player real** (Kodi/Tvheadend/Jellyfin) antes de recomendar o projeto como "pronto pra uso doméstico" — ver limitação acima
+1. **Pinar no perfil do GitHub**, se quiser
+2. **Acompanhar as próximas execuções automáticas do `scrape.yml`** (sem disparo manual) pra confirmar que o agendamento por cron dispara sozinho como esperado
+3. **Testar `output/guide.xml` num player real** (Kodi/Tvheadend/Jellyfin) antes de recomendar o projeto como "pronto pra uso doméstico" — ver limitação acima
