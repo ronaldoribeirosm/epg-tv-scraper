@@ -332,10 +332,6 @@
     <display-name lang="pt">Bis</display-name>
     <icon src="https://assets.meuguia.tv/logos/msh.png"/>
   </channel>
-  <programme start="20260819060000 -0300" stop="20260819083000 -0300" channel="grd.meuguia.tv">
-    <title lang="pt">Bom Dia Rio</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
   <programme start="20260819083000 -0300" stop="20260819093000 -0300" channel="grd.meuguia.tv">
     <title lang="pt">Bom Dia Brasil</title>
     <category lang="pt">Jornalismo/Informativo</category>
@@ -1015,10 +1011,6 @@
   <programme start="20260826234500 -0300" stop="20260827003500 -0300" channel="grd.meuguia.tv">
     <title lang="pt">Justiça 2</title>
     <category lang="pt">Séries/Drama</category>
-  </programme>
-  <programme start="20260819060000 -0300" stop="20260819083000 -0300" channel="sbt.meuguia.tv">
-    <title lang="pt">Se Liga Brasil</title>
-    <category lang="pt">Jornalismo/Informativo</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819124500 -0300" channel="sbt.meuguia.tv">
     <title lang="pt">Primeiro Impacto</title>
@@ -2144,14 +2136,6 @@
     <title lang="pt">Chicago Med</title>
     <category lang="pt">Séries/Drama</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="ban.meuguia.tv">
-    <title lang="pt">Igreja Universal do Reino de Deus</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="ban.meuguia.tv">
-    <title lang="pt">Agro Band</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="ban.meuguia.tv">
     <title lang="pt">Bandsports News</title>
     <category lang="pt">Jornalismo/Esportivo</category>
@@ -2788,10 +2772,6 @@
     <title lang="pt">Cine Clube: Linha De Ação</title>
     <category lang="pt">Filme/Ação</category>
   </programme>
-  <programme start="20260819050000 -0300" stop="20260819083000 -0300" channel="rtv.meuguia.tv">
-    <title lang="pt">Igreja Internacional da Graça de Deus</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
   <programme start="20260819083000 -0300" stop="20260819093000 -0300" channel="rtv.meuguia.tv">
     <title lang="pt">Igreja Universal do Reino de Deus</title>
     <category lang="pt">Variedades/Religião</category>
@@ -3395,26 +3375,6 @@
   <programme start="20260826224500 -0300" stop="20260827000000 -0300" channel="rtv.meuguia.tv">
     <title lang="pt">SuperPop</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819074000 -0300" channel="cul.meuguia.tv">
-    <title lang="pt">Bino e Fino</title>
-    <category lang="pt">Infantil/Animação</category>
-  </programme>
-  <programme start="20260819074000 -0300" stop="20260819074500 -0300" channel="cul.meuguia.tv">
-    <title lang="pt">Parquinho Jurássico</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819074500 -0300" stop="20260819080000 -0300" channel="cul.meuguia.tv">
-    <title lang="pt">Palaloos</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819081500 -0300" channel="cul.meuguia.tv">
-    <title lang="pt">Cocoricó na Cidade</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819081500 -0300" stop="20260819083000 -0300" channel="cul.meuguia.tv">
-    <title lang="pt">Cocoricó</title>
-    <category lang="pt">Séries/Infantil</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819084000 -0300" channel="cul.meuguia.tv">
     <title lang="pt">Mundo Bita</title>
@@ -5263,30 +5223,6 @@
   <programme start="20260826233000 -0300" stop="20260827003000 -0300" channel="cul.meuguia.tv">
     <title lang="pt">Clássicos</title>
     <category lang="pt">Séries/Musical</category>
-  </programme>
-  <programme start="20260819072700 -0300" stop="20260819073500 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Zoopedia</title>
-    <category lang="pt">Infantil/Animação</category>
-  </programme>
-  <programme start="20260819073500 -0300" stop="20260819074700 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Sol em Dó Ré Mi</title>
-    <category lang="pt">Variedades/Musical</category>
-  </programme>
-  <programme start="20260819074700 -0300" stop="20260819075100 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Mundo Bita</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819075100 -0300" stop="20260819080300 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Massinhas</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819080300 -0300" stop="20260819081600 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Lupita no Planeta de Gente Grande</title>
-    <category lang="pt">Infantil/Animação</category>
-  </programme>
-  <programme start="20260819081600 -0300" stop="20260819082700 -0300" channel="ted.meuguia.tv">
-    <title lang="pt">Sonhos e Sapatilhas</title>
-    <category lang="pt">Infantil/Desenho</category>
   </programme>
   <programme start="20260819082700 -0300" stop="20260819083500 -0300" channel="ted.meuguia.tv">
     <title lang="pt">Os Chocolix</title>
@@ -7144,14 +7080,6 @@
     <title lang="pt">Programação TV Gazeta</title>
     <category lang="pt">Variedades/Diversos</category>
   </programme>
-  <programme start="20260819071500 -0300" stop="20260819073500 -0300" channel="rcn.meuguia.tv">
-    <title lang="pt">Visão e Negócios</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073500 -0300" stop="20260819081500 -0300" channel="rcn.meuguia.tv">
-    <title lang="pt">Record News Rural</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
   <programme start="20260819081500 -0300" stop="20260819083500 -0300" channel="rcn.meuguia.tv">
     <title lang="pt">Inovação e Negócios</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -8432,10 +8360,6 @@
     <title lang="pt">Igreja Universal do Reino de Deus</title>
     <category lang="pt">Variedades/Religião</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="mtv.meuguia.tv">
-    <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819120000 -0300" channel="mtv.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -8618,22 +8542,6 @@
   </programme>
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="mtv.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819070000 -0300" stop="20260819074500 -0300" channel="vda.meuguia.tv">
-    <title lang="pt">Santa Missa Capela Nossa Senhora de Fátima</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
-  <programme start="20260819074500 -0300" stop="20260819080000 -0300" channel="vda.meuguia.tv">
-    <title lang="pt">Quaresma de São Miguel - Instituto Hesed</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819082500 -0300" channel="vda.meuguia.tv">
-    <title lang="pt">Novena Maria Passa à Frente</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
-  <programme start="20260819082500 -0300" stop="20260819083000 -0300" channel="vda.meuguia.tv">
-    <title lang="pt">Crônicas Cotidianas Para Vida</title>
     <category lang="pt">Variedades/Diversos</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819084000 -0300" channel="vda.meuguia.tv">
@@ -9928,10 +9836,6 @@
     <title lang="pt">Terço Bizantino</title>
     <category lang="pt">Variedades/Religião</category>
   </programme>
-  <programme start="20260819064500 -0300" stop="20260819073500 -0300" channel="tap.meuguia.tv">
-    <title lang="pt">Missa de Aparecida - Santuário Nacional</title>
-    <category lang="pt">Variedades/Religião</category>
-  </programme>
   <programme start="20260819073500 -0300" stop="20260819085000 -0300" channel="tap.meuguia.tv">
     <title lang="pt">Bênção da Manhã</title>
     <category lang="pt">Variedades/Religião</category>
@@ -10884,10 +10788,6 @@
     <title lang="pt">Medalhão.com</title>
     <category lang="pt">Variedades/Televendas</category>
   </programme>
-  <programme start="20260819063000 -0300" stop="20260819082500 -0300" channel="gln.meuguia.tv">
-    <title lang="pt">GloboNews Em Ponto - Ao Vivo</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
   <programme start="20260819082500 -0300" stop="20260819110000 -0300" channel="gln.meuguia.tv">
     <title lang="pt">GloboNews Radar - Ao Vivo</title>
     <category lang="pt">Jornalismo/Informativo</category>
@@ -11079,14 +10979,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="gln.meuguia.tv">
     <title lang="pt">Programação GloboNews</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819070000 -0300" stop="20260819080000 -0300" channel="cnn.meuguia.tv">
-    <title lang="pt">CNN This Morning</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="cnn.meuguia.tv">
-    <title lang="pt">CNN News Central</title>
-    <category lang="pt">Jornalismo/Informativo</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="cnn.meuguia.tv">
     <title lang="pt">World Sport</title>
@@ -12042,14 +11934,6 @@
   </programme>
   <programme start="20260826230000 -0300" stop="20260827000000 -0300" channel="cnn.meuguia.tv">
     <title lang="pt">CNN NewsNight</title>
-    <category lang="pt">Jornalismo/Informativo</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819074500 -0300" channel="bbc.meuguia.tv">
-    <title lang="pt">Business Today</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819074500 -0300" stop="20260819080000 -0300" channel="bbc.meuguia.tv">
-    <title lang="pt">BBC News</title>
     <category lang="pt">Jornalismo/Informativo</category>
   </programme>
   <programme start="20260819080000 -0300" stop="20260819103000 -0300" channel="bbc.meuguia.tv">
@@ -13159,10 +13043,6 @@
   <programme start="20260826234500 -0300" stop="20260827000000 -0300" channel="bbc.meuguia.tv">
     <title lang="pt">BBC Sport</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819053000 -0300" stop="20260819080000 -0300" channel="new.meuguia.tv">
-    <title lang="pt">Bandnews Hoje</title>
-    <category lang="pt">Jornalismo/Informativo</category>
   </programme>
   <programme start="20260819080000 -0300" stop="20260819093000 -0300" channel="new.meuguia.tv">
     <title lang="pt">Jornal Gente</title>
@@ -14583,14 +14463,6 @@
   <programme start="20260826230000 -0300" stop="20260827000000 -0300" channel="bit.meuguia.tv">
     <title lang="pt">Bloomberg: The China Show</title>
     <category lang="pt">Documentário/Economia</category>
-  </programme>
-  <programme start="20260819070000 -0300" stop="20260819080000 -0300" channel="dwl.meuguia.tv">
-    <title lang="pt">ZonaDocu: Vigilancia Total - Explotación En Las Fábricas de Vietnam</title>
-    <category lang="pt">Documentário/Diversos</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="dwl.meuguia.tv">
-    <title lang="pt">Fuerza Latina</title>
-    <category lang="pt">Documentário/Comportamento</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="dwl.meuguia.tv">
     <title lang="pt">RPM - El Magacín Global del Automóvil y La Movilidad</title>
@@ -16172,10 +16044,6 @@
     <title lang="pt">ZonaDocu: Julian Assange - Silenciado - Parte 2</title>
     <category lang="pt">Documentário/Diversos</category>
   </programme>
-  <programme start="20260819070000 -0300" stop="20260819083000 -0300" channel="spo.meuguia.tv">
-    <title lang="pt">Troca de Passes</title>
-    <category lang="pt">Jornalismo/Esportivo</category>
-  </programme>
   <programme start="20260819083000 -0300" stop="20260819100000 -0300" channel="spo.meuguia.tv">
     <title lang="pt">sportv News - Ao Vivo</title>
     <category lang="pt">Jornalismo/Esportivo</category>
@@ -17184,10 +17052,6 @@
     <title lang="pt">Diamond League - 11ª Etapa - Londres, Inglaterra</title>
     <category lang="pt">Esporte/Atletismo</category>
   </programme>
-  <programme start="20260819061500 -0300" stop="20260819081500 -0300" channel="sp3.meuguia.tv">
-    <title lang="pt">Diamond League - 9ª Etapa - Eugene, EUA</title>
-    <category lang="pt">Esporte/Atletismo</category>
-  </programme>
   <programme start="20260819081500 -0300" stop="20260819101500 -0300" channel="sp3.meuguia.tv">
     <title lang="pt">Fórmula 1 - GP da Hungria</title>
     <category lang="pt">Esporte/Automobilismo</category>
@@ -17728,10 +17592,6 @@
     <title lang="pt">Grand Prix De Judô - Finais - Lima, Peru</title>
     <category lang="pt">Esporte/Luta</category>
   </programme>
-  <programme start="20260819063000 -0300" stop="20260819080000 -0300" channel="esp.meuguia.tv">
-    <title lang="pt">Linha de Passe: Mesa-Redonda</title>
-    <category lang="pt">Jornalismo/Esportivo</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819090000 -0300" channel="esp.meuguia.tv">
     <title lang="pt">Sportscenter</title>
     <category lang="pt">Jornalismo/Esportivo</category>
@@ -18238,10 +18098,6 @@
   </programme>
   <programme start="20260826233000 -0300" stop="20260827010000 -0300" channel="esp.meuguia.tv">
     <title lang="pt">Linha de Passe: Mesa-Redonda - Ao Vivo</title>
-    <category lang="pt">Jornalismo/Esportivo</category>
-  </programme>
-  <programme start="20260819070000 -0300" stop="20260819080000 -0300" channel="es2.meuguia.tv">
-    <title lang="pt">Sportscenter</title>
     <category lang="pt">Jornalismo/Esportivo</category>
   </programme>
   <programme start="20260819080000 -0300" stop="20260819090000 -0300" channel="es2.meuguia.tv">
@@ -18767,10 +18623,6 @@
   <programme start="20260826233000 -0300" stop="20260827023000 -0300" channel="es2.meuguia.tv">
     <title lang="pt">Ciclismo: La Vuelta</title>
     <category lang="pt">Esporte/Ciclismo</category>
-  </programme>
-  <programme start="20260819060000 -0300" stop="20260819080000 -0300" channel="es3.meuguia.tv">
-    <title lang="pt">VT - Goiás x Juventude</title>
-    <category lang="pt">Esporte/Futebol</category>
   </programme>
   <programme start="20260819080000 -0300" stop="20260819090000 -0300" channel="es3.meuguia.tv">
     <title lang="pt">Sportscenter Americano - Ao Vivo</title>
@@ -19860,10 +19712,6 @@
     <title lang="pt">Copa da Liga Inglesa</title>
     <category lang="pt">Esporte/Diversos</category>
   </programme>
-  <programme start="20260819073000 -0300" stop="20260819080000 -0300" channel="es5.meuguia.tv">
-    <title lang="pt">Premier League Stories</title>
-    <category lang="pt">Documentário/Esportivo</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819100000 -0300" channel="es5.meuguia.tv">
     <title lang="pt">VT - Londrina x Atlético-GO</title>
     <category lang="pt">Esporte/Futebol</category>
@@ -20287,10 +20135,6 @@
   <programme start="20260826230000 -0300" stop="20260827010000 -0300" channel="es5.meuguia.tv">
     <title lang="pt">VT - ATP 1000 Cincinnati: Final</title>
     <category lang="pt">Esporte/Tênis</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819083000 -0300" channel="bsp.meuguia.tv">
-    <title lang="pt">Depois do Jogo</title>
-    <category lang="pt">Jornalismo/Esportivo</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="bsp.meuguia.tv">
     <title lang="pt">Bandsports News - Ao Vivo</title>
@@ -21199,14 +21043,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="135.meuguia.tv">
     <title lang="pt">Programação Combate</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819080000 -0300" channel="121.meuguia.tv">
-    <title lang="pt">VT - Fluminense x Palmeiras</title>
-    <category lang="pt">Esporte/Futebol</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="121.meuguia.tv">
-    <title lang="pt">VT - Athletico-PR x Bragantino</title>
-    <category lang="pt">Esporte/Futebol</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="121.meuguia.tv">
     <title lang="pt">VT - Mirassol x Flamengo</title>
@@ -22395,14 +22231,6 @@
   <programme start="20260826234000 -0300" stop="20260827000000 -0300" channel="121.meuguia.tv">
     <title lang="pt">VT - Botafogo x Fluminense</title>
     <category lang="pt">Esporte/Futebol</category>
-  </programme>
-  <programme start="20260819073100 -0300" stop="20260819074200 -0300" channel="off.meuguia.tv">
-    <title lang="pt">Curtas Do Off: Arte, Cor E Renascimento</title>
-    <category lang="pt">Filme/Aventura</category>
-  </programme>
-  <programme start="20260819074200 -0300" stop="20260819080900 -0300" channel="off.meuguia.tv">
-    <title lang="pt">Respira E Se Inspira</title>
-    <category lang="pt">Séries/Aventura</category>
   </programme>
   <programme start="20260819080900 -0300" stop="20260819083600 -0300" channel="off.meuguia.tv">
     <title lang="pt">Nalu E Zay Pelo Mundo</title>
@@ -24028,10 +23856,6 @@
     <title lang="pt">Janaínas: Deusas Do Mar</title>
     <category lang="pt">Séries/Aventura</category>
   </programme>
-  <programme start="20260819060000 -0300" stop="20260819080000 -0300" channel="hbo.meuguia.tv">
-    <title lang="pt">Wonka</title>
-    <category lang="pt">Filme/Aventura</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819093500 -0300" channel="hbo.meuguia.tv">
     <title lang="pt">As Loucuras de Dick e Jane</title>
     <category lang="pt">Filme/Comédia</category>
@@ -24438,10 +24262,6 @@
   </programme>
   <programme start="20260826220000 -0300" stop="20260827001500 -0300" channel="hbo.meuguia.tv">
     <title lang="pt">Jurassic World: Reino Ameaçado</title>
-    <category lang="pt">Filme/Ação</category>
-  </programme>
-  <programme start="20260819060000 -0300" stop="20260819075000 -0300" channel="hb2.meuguia.tv">
-    <title lang="pt">O Turista</title>
     <category lang="pt">Filme/Ação</category>
   </programme>
   <programme start="20260819075000 -0300" stop="20260819094000 -0300" channel="hb2.meuguia.tv">
@@ -25215,10 +25035,6 @@
   <programme start="20260826214700 -0300" stop="20260827001100 -0300" channel="hfa.meuguia.tv">
     <title lang="pt">Mulher-Maravilha</title>
     <category lang="pt">Filme/Ação</category>
-  </programme>
-  <programme start="20260819060000 -0300" stop="20260819074000 -0300" channel="hpl.meuguia.tv">
-    <title lang="pt">A Hora do Pesadelo</title>
-    <category lang="pt">Filme/Terror</category>
   </programme>
   <programme start="20260819074000 -0300" stop="20260819093600 -0300" channel="hpl.meuguia.tv">
     <title lang="pt">O Exterminador do Futuro: A Salvação</title>
@@ -26171,10 +25987,6 @@
   <programme start="20260826225500 -0300" stop="20260827000000 -0300" channel="hfe.meuguia.tv">
     <title lang="pt">Band of Brothers</title>
     <category lang="pt">Séries/Guerra</category>
-  </programme>
-  <programme start="20260819063100 -0300" stop="20260819082100 -0300" channel="tnt.meuguia.tv">
-    <title lang="pt">Mad Max - Além da Cúpula do Trovão</title>
-    <category lang="pt">Filme/Ação</category>
   </programme>
   <programme start="20260819082100 -0300" stop="20260819100000 -0300" channel="tnt.meuguia.tv">
     <title lang="pt">A Herança de Mr. Deeds</title>
@@ -28700,10 +28512,6 @@
     <title lang="pt">Riquinho</title>
     <category lang="pt">Filme/Comédia</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="par.meuguia.tv">
-    <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819120000 -0300" channel="par.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -28887,14 +28695,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="par.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819080000 -0300" channel="mgm.meuguia.tv">
-    <title lang="pt">Planet Action</title>
-    <category lang="pt">Séries/Diversos</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="mgm.meuguia.tv">
-    <title lang="pt">Planet Action</title>
-    <category lang="pt">Séries/Diversos</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090000 -0300" channel="mgm.meuguia.tv">
     <title lang="pt">Planet Action</title>
@@ -29463,18 +29263,6 @@
   <programme start="20260826235000 -0300" stop="20260827020500 -0300" channel="mgm.meuguia.tv">
     <title lang="pt">Sicario: Dia do Soldado</title>
     <category lang="pt">Filme/Ação</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819080000 -0300" channel="cbr.meuguia.tv">
-    <title lang="pt">Curta Na Tela: NC5 - Contra a Lei do Impedimento</title>
-    <category lang="pt">Filme/Documentário</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819081500 -0300" channel="cbr.meuguia.tv">
-    <title lang="pt">Esquinas - Pílulas - Lava Lava</title>
-    <category lang="pt">Séries/Diversos</category>
-  </programme>
-  <programme start="20260819081500 -0300" stop="20260819083000 -0300" channel="cbr.meuguia.tv">
-    <title lang="pt">Um Copo De Veneno - Quarto Quadro: O Recado</title>
-    <category lang="pt">Séries/Documentário</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819084500 -0300" channel="cbr.meuguia.tv">
     <title lang="pt">Angeli - The Killer - Religiões e Outras Drogas</title>
@@ -31052,10 +30840,6 @@
     <title lang="pt">Invasão ao Serviço Secreto</title>
     <category lang="pt">Filme/Ação</category>
   </programme>
-  <programme start="20260819055000 -0300" stop="20260819080500 -0300" channel="tc2.meuguia.tv">
-    <title lang="pt">Batman: O Retorno</title>
-    <category lang="pt">Filme/Ação</category>
-  </programme>
   <programme start="20260819080500 -0300" stop="20260819094500 -0300" channel="tc2.meuguia.tv">
     <title lang="pt">Jogos Mortais - O Final</title>
     <category lang="pt">Filme/Terror</category>
@@ -31431,10 +31215,6 @@
   <programme start="20260826220000 -0300" stop="20260827001500 -0300" channel="tc2.meuguia.tv">
     <title lang="pt">Van Helsing - O Caçador De Monstros</title>
     <category lang="pt">Filme/Ação</category>
-  </programme>
-  <programme start="20260819063500 -0300" stop="20260819083000 -0300" channel="tc3.meuguia.tv">
-    <title lang="pt">Loucas pra Casar</title>
-    <category lang="pt">Filme/Comédia</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819100500 -0300" channel="tc3.meuguia.tv">
     <title lang="pt">Noivas Em Guerra</title>
@@ -31824,14 +31604,6 @@
     <title lang="pt">Cinquenta Tons De Cinza</title>
     <category lang="pt">Filme/Romance</category>
   </programme>
-  <programme start="20260819055000 -0300" stop="20260819075000 -0300" channel="tc4.meuguia.tv">
-    <title lang="pt">A Bela E A Fera (2014)</title>
-    <category lang="pt">Filme/Ficção</category>
-  </programme>
-  <programme start="20260819075000 -0300" stop="20260819080500 -0300" channel="tc4.meuguia.tv">
-    <title lang="pt">Umbrella</title>
-    <category lang="pt">Filme/Animação</category>
-  </programme>
   <programme start="20260819080500 -0300" stop="20260819101500 -0300" channel="tc4.meuguia.tv">
     <title lang="pt">Dupla Explosiva</title>
     <category lang="pt">Filme/Ação</category>
@@ -32220,10 +31992,6 @@
     <title lang="pt">Gladiador</title>
     <category lang="pt">Filme/Ação</category>
   </programme>
-  <programme start="20260819062500 -0300" stop="20260819080000 -0300" channel="tc5.meuguia.tv">
-    <title lang="pt">O Palhaço</title>
-    <category lang="pt">Filme/Drama</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819095500 -0300" channel="tc5.meuguia.tv">
     <title lang="pt">Cópia Fiel</title>
     <category lang="pt">Filme/Drama</category>
@@ -32607,10 +32375,6 @@
   <programme start="20260826235000 -0300" stop="20260827021000 -0300" channel="tc5.meuguia.tv">
     <title lang="pt">A Professora De Piano</title>
     <category lang="pt">Filme/Drama</category>
-  </programme>
-  <programme start="20260819065500 -0300" stop="20260819082500 -0300" channel="tc6.meuguia.tv">
-    <title lang="pt">O Garoto-Formiga 3</title>
-    <category lang="pt">Filme/Aventura</category>
   </programme>
   <programme start="20260819082500 -0300" stop="20260819095000 -0300" channel="tc6.meuguia.tv">
     <title lang="pt">Quem É Morto Sempre Aparece</title>
@@ -33051,14 +32815,6 @@
   <programme start="20260826233500 -0300" stop="20260827012000 -0300" channel="tc6.meuguia.tv">
     <title lang="pt">A Sogra Perfeita</title>
     <category lang="pt">Filme/Comédia</category>
-  </programme>
-  <programme start="20260819065000 -0300" stop="20260819074000 -0300" channel="axn.meuguia.tv">
-    <title lang="pt">C.S.I. Miami</title>
-    <category lang="pt">Séries/Policial</category>
-  </programme>
-  <programme start="20260819074000 -0300" stop="20260819083000 -0300" channel="axn.meuguia.tv">
-    <title lang="pt">C.S.I. Miami</title>
-    <category lang="pt">Séries/Policial</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819092000 -0300" channel="axn.meuguia.tv">
     <title lang="pt">S.W.A.T.</title>
@@ -33907,14 +33663,6 @@
   <programme start="20260826235500 -0300" stop="20260827005000 -0300" channel="axn.meuguia.tv">
     <title lang="pt">Criminal Minds</title>
     <category lang="pt">Séries/Suspense</category>
-  </programme>
-  <programme start="20260819065000 -0300" stop="20260819074400 -0300" channel="set.meuguia.tv">
-    <title lang="pt">Bettys Diagnose</title>
-    <category lang="pt">Séries/Drama</category>
-  </programme>
-  <programme start="20260819074400 -0300" stop="20260819081400 -0300" channel="set.meuguia.tv">
-    <title lang="pt">The Nanny</title>
-    <category lang="pt">Séries/Humor</category>
   </programme>
   <programme start="20260819081400 -0300" stop="20260819084400 -0300" channel="set.meuguia.tv">
     <title lang="pt">The Nanny</title>
@@ -35900,10 +35648,6 @@
     <title lang="pt">Terremoto: A Falha de San Andreas</title>
     <category lang="pt">Filme/Suspense</category>
   </programme>
-  <programme start="20260819070000 -0300" stop="20260819080000 -0300" channel="usa.meuguia.tv">
-    <title lang="pt">Chicago Med</title>
-    <category lang="pt">Séries/Drama</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819085500 -0300" channel="usa.meuguia.tv">
     <title lang="pt">Chicago Med</title>
     <category lang="pt">Séries/Drama</category>
@@ -36759,10 +36503,6 @@
   <programme start="20260826231000 -0300" stop="20260827000000 -0300" channel="usa.meuguia.tv">
     <title lang="pt">Law &amp; Order: Svu</title>
     <category lang="pt">Séries/Policial</category>
-  </programme>
-  <programme start="20260819065600 -0300" stop="20260819074900 -0300" channel="tbs.meuguia.tv">
-    <title lang="pt">Um Milagre</title>
-    <category lang="pt">Séries/Drama</category>
   </programme>
   <programme start="20260819074900 -0300" stop="20260819084200 -0300" channel="tbs.meuguia.tv">
     <title lang="pt">Um Milagre</title>
@@ -37659,10 +37399,6 @@
   <programme start="20260826231800 -0300" stop="20260827000700 -0300" channel="tbs.meuguia.tv">
     <title lang="pt">Iludida</title>
     <category lang="pt">Séries/Drama</category>
-  </programme>
-  <programme start="20260819070200 -0300" stop="20260819074900 -0300" channel="tns.meuguia.tv">
-    <title lang="pt">The Mentalist</title>
-    <category lang="pt">Séries/Suspense</category>
   </programme>
   <programme start="20260819074900 -0300" stop="20260819083400 -0300" channel="tns.meuguia.tv">
     <title lang="pt">The Mentalist</title>
@@ -38676,10 +38412,6 @@
     <title lang="pt">The Mentalist</title>
     <category lang="pt">Séries/Suspense</category>
   </programme>
-  <programme start="20260819064500 -0300" stop="20260819081400 -0300" channel="anx.meuguia.tv">
-    <title lang="pt">Promesas Quebradas</title>
-    <category lang="pt">Filme/Suspense</category>
-  </programme>
   <programme start="20260819081400 -0300" stop="20260819094500 -0300" channel="anx.meuguia.tv">
     <title lang="pt">Meu Ex Noivo Psicopata</title>
     <category lang="pt">Filme/Drama</category>
@@ -39207,10 +38939,6 @@
   <programme start="20260826235900 -0300" stop="20260827013000 -0300" channel="anx.meuguia.tv">
     <title lang="pt">Seu Fã Número Um</title>
     <category lang="pt">Filme/Suspense</category>
-  </programme>
-  <programme start="20260819073500 -0300" stop="20260819082000 -0300" channel="mdo.meuguia.tv">
-    <title lang="pt">Mentes Assassinas</title>
-    <category lang="pt">Séries/Investigação</category>
   </programme>
   <programme start="20260819082000 -0300" stop="20260819091000 -0300" channel="mdo.meuguia.tv">
     <title lang="pt">Culto À Personalidade</title>
@@ -40728,10 +40456,6 @@
     <title lang="pt">Velozes e Furiosos 10</title>
     <category lang="pt">Filme/Ação</category>
   </programme>
-  <programme start="20260819065200 -0300" stop="20260819074400 -0300" channel="apl.meuguia.tv">
-    <title lang="pt">Veterinários do Texas</title>
-    <category lang="pt">Séries/Reality Show</category>
-  </programme>
   <programme start="20260819074400 -0300" stop="20260819083600 -0300" channel="apl.meuguia.tv">
     <title lang="pt">Veterinários do Texas</title>
     <category lang="pt">Séries/Reality Show</category>
@@ -41596,10 +41320,6 @@
     <title lang="pt">Jeremy Wade: Águas Misteriosas</title>
     <category lang="pt">Séries/Documentário</category>
   </programme>
-  <programme start="20260819073000 -0300" stop="20260819082000 -0300" channel="bra.meuguia.tv">
-    <title lang="pt">Mr. Loverman</title>
-    <category lang="pt">Séries/Drama</category>
-  </programme>
   <programme start="20260819082000 -0300" stop="20260819092000 -0300" channel="bra.meuguia.tv">
     <title lang="pt">Alphaville Na Filarmônica De Berlim</title>
     <category lang="pt">Espetáculo/Musical</category>
@@ -42192,10 +41912,6 @@
     <title lang="pt">Magnólia</title>
     <category lang="pt">Filme/Drama</category>
   </programme>
-  <programme start="20260819060000 -0300" stop="20260819075500 -0300" channel="eur.meuguia.tv">
-    <title lang="pt">Amor no Paraíso</title>
-    <category lang="pt">Filme/Comédia Romântica</category>
-  </programme>
   <programme start="20260819075500 -0300" stop="20260819094000 -0300" channel="eur.meuguia.tv">
     <title lang="pt">Visões Mortais</title>
     <category lang="pt">Filme/Terror</category>
@@ -42651,10 +42367,6 @@
   <programme start="20260826232500 -0300" stop="20260827011000 -0300" channel="eur.meuguia.tv">
     <title lang="pt">Casamento em Cuba</title>
     <category lang="pt">Filme/Comédia Romântica</category>
-  </programme>
-  <programme start="20260819071200 -0300" stop="20260819080000 -0300" channel="dhd.meuguia.tv">
-    <title lang="pt">Rumo ao Desconhecido</title>
-    <category lang="pt">Séries/Reality Show</category>
   </programme>
   <programme start="20260819080000 -0300" stop="20260819084800 -0300" channel="dhd.meuguia.tv">
     <title lang="pt">Pesca Mortal</title>
@@ -43612,10 +43324,6 @@
     <title lang="pt">Alasca: A Última Fronteira</title>
     <category lang="pt">Séries/Reality Show</category>
   </programme>
-  <programme start="20260819071000 -0300" stop="20260819075400 -0300" channel="dis.meuguia.tv">
-    <title lang="pt">Largados e Pelados</title>
-    <category lang="pt">Séries/Documentário</category>
-  </programme>
   <programme start="20260819075400 -0300" stop="20260819084600 -0300" channel="dis.meuguia.tv">
     <title lang="pt">Largados e Pelados</title>
     <category lang="pt">Séries/Documentário</category>
@@ -44540,10 +44248,6 @@
     <title lang="pt">Operação Fronteira: Itália</title>
     <category lang="pt">Séries/Reality Show</category>
   </programme>
-  <programme start="20260819071200 -0300" stop="20260819080000 -0300" channel="dsc.meuguia.tv">
-    <title lang="pt">Armas USA</title>
-    <category lang="pt">Séries/Documentário</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819084800 -0300" channel="dsc.meuguia.tv">
     <title lang="pt">Olho Crítico</title>
     <category lang="pt">Séries/Documentário</category>
@@ -45464,14 +45168,6 @@
     <title lang="pt">Desastre</title>
     <category lang="pt">Séries/Documentário</category>
   </programme>
-  <programme start="20260819065000 -0300" stop="20260819074000 -0300" channel="dtu.meuguia.tv">
-    <title lang="pt">Carros Irados: Bastidores</title>
-    <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819074000 -0300" stop="20260819083000 -0300" channel="dtu.meuguia.tv">
-    <title lang="pt">Oficinaço</title>
-    <category lang="pt">Séries/Competição</category>
-  </programme>
   <programme start="20260819083000 -0300" stop="20260819092200 -0300" channel="dtu.meuguia.tv">
     <title lang="pt">American Chopper</title>
     <category lang="pt">Séries/Documentário</category>
@@ -46351,14 +46047,6 @@
   <programme start="20260826231400 -0300" stop="20260827000600 -0300" channel="dtu.meuguia.tv">
     <title lang="pt">Carros Irados</title>
     <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819071200 -0300" stop="20260819073600 -0300" channel="diw.meuguia.tv">
-    <title lang="pt">Vende-se Pântano</title>
-    <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819073600 -0300" stop="20260819082400 -0300" channel="diw.meuguia.tv">
-    <title lang="pt">1000 Lugares para Conhecer Antes de Morrer</title>
-    <category lang="pt">Séries/Viagem</category>
   </programme>
   <programme start="20260819082400 -0300" stop="20260819091200 -0300" channel="diw.meuguia.tv">
     <title lang="pt">Italianos Made in India</title>
@@ -47924,10 +47612,6 @@
     <title lang="pt">Buying Hawaii</title>
     <category lang="pt">Séries/Reality Show</category>
   </programme>
-  <programme start="20260819073500 -0300" stop="20260819081900 -0300" channel="hea.meuguia.tv">
-    <title lang="pt">SOS Restaurante</title>
-    <category lang="pt">Séries/Culinária</category>
-  </programme>
   <programme start="20260819081900 -0300" stop="20260819091100 -0300" channel="hea.meuguia.tv">
     <title lang="pt">A Guerra dos Bolos</title>
     <category lang="pt">Séries/Culinária</category>
@@ -48683,14 +48367,6 @@
   <programme start="20260826235300 -0300" stop="20260827013300 -0300" channel="hea.meuguia.tv">
     <title lang="pt">Quilos Mortais</title>
     <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819075500 -0300" channel="his.meuguia.tv">
-    <title lang="pt">O Melhor De... Trato Feito</title>
-    <category lang="pt">Séries/Documentário</category>
-  </programme>
-  <programme start="20260819075500 -0300" stop="20260819082000 -0300" channel="his.meuguia.tv">
-    <title lang="pt">O Melhor De... Trato Feito</title>
-    <category lang="pt">Séries/Documentário</category>
   </programme>
   <programme start="20260819082000 -0300" stop="20260819090500 -0300" channel="his.meuguia.tv">
     <title lang="pt">Trato Feito</title>
@@ -49691,14 +49367,6 @@
   <programme start="20260826234500 -0300" stop="20260827003500 -0300" channel="his.meuguia.tv">
     <title lang="pt">Alienígenas do Passado</title>
     <category lang="pt">Séries/Documentário</category>
-  </programme>
-  <programme start="20260819064800 -0300" stop="20260819073600 -0300" channel="trv.meuguia.tv">
-    <title lang="pt">Amy e Tammy: Irmãs Contra o Peso</title>
-    <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819073600 -0300" stop="20260819082500 -0300" channel="trv.meuguia.tv">
-    <title lang="pt">Amy e Tammy: Irmãs Contra o Peso</title>
-    <category lang="pt">Séries/Reality Show</category>
   </programme>
   <programme start="20260819082500 -0300" stop="20260819100300 -0300" channel="trv.meuguia.tv">
     <title lang="pt">De Volta Ao Mundo Amish</title>
@@ -50731,18 +50399,6 @@
   <programme start="20260826225600 -0300" stop="20260827001100 -0300" channel="trv.meuguia.tv">
     <title lang="pt">Amor Fora Das Grades: Como Eles Estão Agora?</title>
     <category lang="pt">Séries/Reality Show</category>
-  </programme>
-  <programme start="20260819073500 -0300" stop="20260819074700 -0300" channel="car.meuguia.tv">
-    <title lang="pt">Irmão do Jorel</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819074700 -0300" stop="20260819080000 -0300" channel="car.meuguia.tv">
-    <title lang="pt">Irmão do Jorel</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819082400 -0300" channel="car.meuguia.tv">
-    <title lang="pt">Os Jovens Titãs em Ação</title>
-    <category lang="pt">Infantil/Desenho</category>
   </programme>
   <programme start="20260819082400 -0300" stop="20260819083600 -0300" channel="car.meuguia.tv">
     <title lang="pt">Os Jovens Titãs em Ação</title>
@@ -54144,22 +53800,6 @@
     <title lang="pt">Clarêncio, o Otimista</title>
     <category lang="pt">Infantil/Desenho</category>
   </programme>
-  <programme start="20260819073500 -0300" stop="20260819074600 -0300" channel="gob.meuguia.tv">
-    <title lang="pt">Alvinnn!!! E Os Esquilos</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819074600 -0300" stop="20260819075800 -0300" channel="gob.meuguia.tv">
-    <title lang="pt">Alvinnn!!! E Os Esquilos</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819075800 -0300" stop="20260819080900 -0300" channel="gob.meuguia.tv">
-    <title lang="pt">Alvinnn!!! E Os Esquilos</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819080900 -0300" stop="20260819082100 -0300" channel="gob.meuguia.tv">
-    <title lang="pt">Denver</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
   <programme start="20260819082100 -0300" stop="20260819083300 -0300" channel="gob.meuguia.tv">
     <title lang="pt">Denver</title>
     <category lang="pt">Séries/Infantil</category>
@@ -55555,22 +55195,6 @@
   <programme start="20260826201600 -0300" stop="20260827001600 -0300" channel="gob.meuguia.tv">
     <title lang="pt">Programação Gloob</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819072300 -0300" stop="20260819074700 -0300" channel="dik.meuguia.tv">
-    <title lang="pt">Mermicorno: A Queda das Estrelas</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819074700 -0300" stop="20260819080900 -0300" channel="dik.meuguia.tv">
-    <title lang="pt">Mermicorno: A Queda das Estrelas</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819080900 -0300" stop="20260819082000 -0300" channel="dik.meuguia.tv">
-    <title lang="pt">Hello Kitty Super Style</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819082000 -0300" stop="20260819083100 -0300" channel="dik.meuguia.tv">
-    <title lang="pt">Hello Kitty Super Style</title>
-    <category lang="pt">Infantil/Desenho</category>
   </programme>
   <programme start="20260819083100 -0300" stop="20260819085400 -0300" channel="dik.meuguia.tv">
     <title lang="pt">Lego Friends: The Next Chapter</title>
@@ -58984,10 +58608,6 @@
     <title lang="pt">Mini Beat Power Rockers</title>
     <category lang="pt">Infantil/Desenho</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="nic.meuguia.tv">
-    <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819120000 -0300" channel="nic.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -59169,10 +58789,6 @@
     <category lang="pt">Variedades/Diversos</category>
   </programme>
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="nic.meuguia.tv">
-    <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="njr.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
   </programme>
@@ -59359,22 +58975,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="njr.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073500 -0300" stop="20260819074600 -0300" channel="toc.meuguia.tv">
-    <title lang="pt">O Acampamento de Lazlo</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819074600 -0300" stop="20260819075900 -0300" channel="toc.meuguia.tv">
-    <title lang="pt">O Acampamento de Lazlo</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819075900 -0300" stop="20260819081000 -0300" channel="toc.meuguia.tv">
-    <title lang="pt">Meu Amigo da Escola é um Macaco</title>
-    <category lang="pt">Infantil/Desenho</category>
-  </programme>
-  <programme start="20260819081000 -0300" stop="20260819082100 -0300" channel="toc.meuguia.tv">
-    <title lang="pt">Meu Amigo da Escola é um Macaco</title>
-    <category lang="pt">Infantil/Desenho</category>
   </programme>
   <programme start="20260819082100 -0300" stop="20260819083400 -0300" channel="toc.meuguia.tv">
     <title lang="pt">Meu Amigo da Escola é um Macaco</title>
@@ -63104,10 +62704,6 @@
     <title lang="pt">Baby Looney Tunes</title>
     <category lang="pt">Séries/Animação</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="bab.meuguia.tv">
-    <title lang="pt">COMUNICADO IMPORTANTE</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819120000 -0300" channel="bab.meuguia.tv">
     <title lang="pt">COMUNICADO IMPORTANTE</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -63291,10 +62887,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="bab.meuguia.tv">
     <title lang="pt">COMUNICADO IMPORTANTE</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819065400 -0300" stop="20260819075400 -0300" channel="gnt.meuguia.tv">
-    <title lang="pt">Fazendo A Festa</title>
-    <category lang="pt">Séries/Diversos</category>
   </programme>
   <programme start="20260819075400 -0300" stop="20260819084800 -0300" channel="gnt.meuguia.tv">
     <title lang="pt">Santa Ajuda</title>
@@ -64275,18 +63867,6 @@
   <programme start="20260826233000 -0300" stop="20260827003000 -0300" channel="gnt.meuguia.tv">
     <title lang="pt">Que História É Essa, Porchat?</title>
     <category lang="pt">Variedades/Talk Show</category>
-  </programme>
-  <programme start="20260819072600 -0300" stop="20260819075500 -0300" channel="msw.meuguia.tv">
-    <title lang="pt">Chapolin</title>
-    <category lang="pt">Séries/Humor</category>
-  </programme>
-  <programme start="20260819075500 -0300" stop="20260819080000 -0300" channel="msw.meuguia.tv">
-    <title lang="pt">Humor Multishow</title>
-    <category lang="pt">Variedades/Musical</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819083000 -0300" channel="msw.meuguia.tv">
-    <title lang="pt">Tvz</title>
-    <category lang="pt">Variedades/Musical</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819090500 -0300" channel="msw.meuguia.tv">
     <title lang="pt">Aquecimento Rock In Rio</title>
@@ -65552,10 +65132,6 @@
     <title lang="pt">Tô De Graça</title>
     <category lang="pt">Séries/Diversos</category>
   </programme>
-  <programme start="20260819071200 -0300" stop="20260819081400 -0300" channel="viv.meuguia.tv">
-    <title lang="pt">Belíssima</title>
-    <category lang="pt">Variedades/Novela</category>
-  </programme>
   <programme start="20260819081400 -0300" stop="20260819085700 -0300" channel="viv.meuguia.tv">
     <title lang="pt">O Profeta</title>
     <category lang="pt">Variedades/Novela</category>
@@ -66448,10 +66024,6 @@
     <title lang="pt">Belíssima</title>
     <category lang="pt">Variedades/Novela</category>
   </programme>
-  <programme start="20260819040000 -0300" stop="20260819080000 -0300" channel="cce.meuguia.tv">
-    <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
-    <category lang="pt">Variedades/Diversos</category>
-  </programme>
   <programme start="20260819080000 -0300" stop="20260819120000 -0300" channel="cce.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
@@ -66635,30 +66207,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="cce.meuguia.tv">
     <title lang="pt">Canal descontinuado de todo o território brasileiro</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073000 -0300" stop="20260819074000 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Contos Do Iéti</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819074000 -0300" stop="20260819075000 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Tainá E Os Guardiões Da Amazônia</title>
-    <category lang="pt">Séries/Animação</category>
-  </programme>
-  <programme start="20260819075000 -0300" stop="20260819080000 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Mytikah</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819080000 -0300" stop="20260819081500 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Comer, Beber E Aprender</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819081500 -0300" stop="20260819082500 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Tuca, O Mestre Cuca</title>
-    <category lang="pt">Séries/Infantil</category>
-  </programme>
-  <programme start="20260819082500 -0300" stop="20260819083000 -0300" channel="fut.meuguia.tv">
-    <title lang="pt">Tuca, O Mestre Cuca.</title>
-    <category lang="pt">Séries/Infantil</category>
   </programme>
   <programme start="20260819083000 -0300" stop="20260819083500 -0300" channel="fut.meuguia.tv">
     <title lang="pt">O Dia Em Que Me Tornei Mais Forte</title>
@@ -68367,10 +67915,6 @@
   <programme start="20260826200000 -0300" stop="20260827000000 -0300" channel="fut.meuguia.tv">
     <title lang="pt">Programação Futura</title>
     <category lang="pt">Variedades/Diversos</category>
-  </programme>
-  <programme start="20260819073400 -0300" stop="20260819080400 -0300" channel="msh.meuguia.tv">
-    <title lang="pt">Depois Daquele Álbum</title>
-    <category lang="pt">Variedades/Musical</category>
   </programme>
   <programme start="20260819080400 -0300" stop="20260819090400 -0300" channel="msh.meuguia.tv">
     <title lang="pt">Experimente</title>
